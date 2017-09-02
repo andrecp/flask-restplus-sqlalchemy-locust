@@ -21,6 +21,11 @@ python backend.py  # Starts the backend.
 locust --host=http://localhost:5000
 ```
 
-Now open http://127.0.0.1:8089
+Open http://127.0.0.1:5000 to check you TODO list REST API!
+Open http://127.0.0.1:8089 and start your load test!
 
+## More
 
+http://docs.locust.io/en/latest/quickstart.html
+https://flask-restplus.readthedocs.io/en/stable/
+http://flask-sqlalchemy.pocoo.org/2.1/
