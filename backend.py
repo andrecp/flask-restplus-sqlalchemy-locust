@@ -82,7 +82,6 @@ class TodoList(Resource):
     @ns.marshal_with(todo, code=201)
     def post(self):
         '''Create a new task'''
-        print api.payload
         return DAO.create(api.payload), 201
 
 
