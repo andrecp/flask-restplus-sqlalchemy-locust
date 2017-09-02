@@ -18,14 +18,18 @@ This project is a TODO CRUD from Flask RESTplus website using Flask SQLAlchemy t
 pip install -r requirements.txt  # Install dependencies
 python init_db.py  # Creates the database.
 python backend.py  # Starts the backend.
-locust --host=http://localhost:5000
+locust --host=http://localhost:5000  # Starts the locust backend.
 ```
 
 Open http://127.0.0.1:5000 to check you TODO list REST API!
+
 Open http://127.0.0.1:8089 and start your load test!
 
 ## More
 
 http://docs.locust.io/en/latest/quickstart.html
+
 https://flask-restplus.readthedocs.io/en/stable/
+
 http://flask-sqlalchemy.pocoo.org/2.1/
+
