@@ -13,7 +13,7 @@ class UserBehavior(TaskSet):
         }
 
         data = {
-            "task": "Testing {}".format(str(uuid4))
+            "task": "Testing {}".format(str(uuid4()))
         }
 
         self.client.post("/todos/", json.dumps(data), headers=headers)
